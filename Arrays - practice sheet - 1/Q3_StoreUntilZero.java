@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+ 
 public class Q3_StoreUntilZero {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
