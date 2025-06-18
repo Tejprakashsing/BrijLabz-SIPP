@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NumberAnalyzer {
+public class NumberAnalyzer { 
     public static boolean isPositive(int number) {
         return number > 0;
     }
