@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Q17_ReverseDigitsArray {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+ 
 public class Q18_YoungestTallest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

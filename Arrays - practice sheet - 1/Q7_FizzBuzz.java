@@ -8,7 +8,7 @@ public class Q7_FizzBuzz {
 
         if (n <= 0) {
             System.out.println("Invalid input");
-            return;
+            return; 
         }
 
         String[] results = new String[n + 1];
