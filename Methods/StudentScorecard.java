@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+ 
 public class StudentScorecard {
     public static int[][] generateScores(int numStudents) {
         int[][] scores = new int[numStudents][3];
