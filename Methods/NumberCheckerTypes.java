@@ -11,7 +11,7 @@ public class NumberCheckerTypes {
         for (int i = 1; i <= number; i++) {
             if (number % i == 0) factors[index++] = i;
         }
-        return factors;
+        return factors; 
     }
 
     public static boolean isPerfect(int number) {
