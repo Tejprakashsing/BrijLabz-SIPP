@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+ 
 public class ChocolateDivider {
     public static int[] findRemainderAndQuotient(int number, int divisor) {
         int[] result = new int[2];
