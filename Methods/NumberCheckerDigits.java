@@ -6,7 +6,7 @@ public class NumberCheckerDigits {
     }
 
     public static int[] getDigits(int number) {
-        String numStr = String.valueOf(Math.abs(number));
+        String numStr = String.valueOf(Math.abs(number)); 
         int[] digits = new int[numStr.length()];
         for (int i = 0; i < numStr.length(); i++) {
             digits[i] = numStr.charAt(i) - '0';
