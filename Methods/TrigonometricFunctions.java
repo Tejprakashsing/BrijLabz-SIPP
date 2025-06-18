@@ -11,7 +11,7 @@ public class TrigonometricFunctions {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); 
         double angle = scanner.nextDouble();
         double[] results = calculateTrigonometricFunctions(angle);
         System.out.println("Sine: " + results[0]);
