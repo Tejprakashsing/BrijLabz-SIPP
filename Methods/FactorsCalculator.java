@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class FactorsCalculator {
     public static int[] findFactors(int number) {
         int count = 0;
-        for (int i = 1; i <= number; i++) {
+        for (int i = 1; i <= number; i++) { 
             if (number % i == 0) count++;
         }
         int[] factors = new int[count];
