@@ -6,7 +6,7 @@ public class QuotientRemainder {
         result[0] = number / divisor;
         result[1] = number % divisor;
         return result;
-    }
+    } 
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
