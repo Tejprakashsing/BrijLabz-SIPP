@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class EmployeeBonus {
     public static double[][] generateEmployeeData(int numEmployees) {
-        double[][] data = new double[numEmployees][2];
+        double[][] data = new double[numEmployees][2]; 
         for (int i = 0; i < numEmployees; i++) {
             data[i][0] = (int) (Math.random() * 90000 + 10000);
             data[i][1] = (int) (Math.random() * 10 + 1);
