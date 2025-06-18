@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class NumberChecker {
-    public static int checkNumber(int number) {
+    public static int checkNumber(int number) { 
         if (number > 0) return 1;
         else if (number < 0) return -1;
         else return 0;
