@@ -5,7 +5,7 @@ public class FriendsComparison {
         int minIndex = 0;
         for (int i = 1; i < ages.length; i++) {
             if (ages[i] < ages[minIndex]) minIndex = i;
-        }
+        } 
         return minIndex;
     }
 
