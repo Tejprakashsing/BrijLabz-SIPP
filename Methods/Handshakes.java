@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Handshakes {
-    public static int calculateHandshakes(int numberOfStudents) {
+    public static int calculateHandshakes(int numberOfStudents) { 
         return (numberOfStudents * (numberOfStudents - 1)) / 2;
     }
 
